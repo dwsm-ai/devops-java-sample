@@ -12,7 +12,7 @@ pipeline {
     environment {
         DOCKER_CREDENTIAL_ID = 'vistadocker'
         REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'javaapp'
+        DOCKERHUB_NAMESPACE = 'vistadocker'
         GITHUB_ACCOUNT = 'kubesphere'
         APP_NAME = 'devops-java-sample'
     }
